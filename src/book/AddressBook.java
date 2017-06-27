@@ -1,7 +1,5 @@
 package book;
 
-import java.util.Scanner;
-
 public class AddressBook {
 
 	public static void main(String[] args) {
@@ -27,6 +25,10 @@ public class AddressBook {
 		
 		b.setEmail ("lil_Chip94@gmail.com"); 
 		System.out.println(b.getEmail());
+		
+		
+		// The validation methods should be private in order to prevent random people from modifying personal information of others
+			
 	}
 
 }
